@@ -55,7 +55,7 @@ def create_file(final, dfas, title):
 
     output.write("    print('nombre de archivo:')\n")
     output.write("    test = input()\n")
-    output.write("    filerino = open('/Users/cristinabautista/Desktop/Diseño Lenguajes/Extra2/Proyecto2_DdL/Proyecto2/tests/' + test)\n")
+    output.write("    filerino = open('/Users/cristinabautista/Desktop/Diseño Lenguajes/Proyecto2_DdL/Proyecto2/tests/' + test)\n")
     output.write("    words = filerino.read()\n")
     output.write("    filerino.close()\n")
     output.write("    i = 0\n")
@@ -99,7 +99,7 @@ def writeAutomata(automata, i, file, title="el grande"):
     file.write("\n")
 
 if __name__ == "__main__":
-    archivito = "inputs/ArchivoPrueba2.atg"
+    archivito = "inputs/ArchivoPrueba1v2.0.atg"
     file = open(archivito)
     content = file.read()
     errores = False
