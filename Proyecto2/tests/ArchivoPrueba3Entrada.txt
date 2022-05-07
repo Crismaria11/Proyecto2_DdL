@@ -1,0 +1,2 @@
+'hola mundo'	 350.3 	 350   cadena ' cadena	'
+

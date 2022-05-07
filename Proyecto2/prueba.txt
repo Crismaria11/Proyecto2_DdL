@@ -1,0 +1,10 @@
+do
+while
+5.5
+555
+100.1
+numerito
+estoesuntoken123
+-500
+10BH
+switch
